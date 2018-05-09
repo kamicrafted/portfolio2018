@@ -1,0 +1,53 @@
+[{
+  "title": "Juju's Diary",
+  "slug": "jujus-diary",
+  "year": "2015",
+  "skills": [
+    "Creative Direction",
+    "Front-end"
+  ],
+  "description": "VuePress is composed of two parts: a minimalistic static site generator with a Vue-powered theming system, and a default theme optimized for writing technical documentation. It was created to support the documentation needs of Vue's own sub projects.",
+  "preview": "projects/jujusdiary/preview.png",
+  "art": "projects/jujusdiary/keyart.png",
+  "type": "case"
+},
+{
+  "title": "DramaFever",
+  "slug": "dramafever",
+  "year": "2015",
+  "skills": [
+    "Creative Direction",
+    "Front-end"
+  ],
+  "description": "VuePress is composed of two parts: a minimalistic static site generator with a Vue-powered theming system, and a default theme optimized for writing technical documentation. It was created to support the documentation needs of Vue's own sub projects.",
+  "preview": "projects/jujusdiary/preview.png",
+  "art": "projects/jujusdiary/keyart.png",
+  "type": "case"
+},
+{
+  "title": "DramaFever",
+  "slug": "dramafever",
+  "year": "2015",
+  "skills": [
+    "Creative Direction",
+    "Front-end"
+  ],
+  "description": "VuePress is composed of two parts: a minimalistic static site generator with a Vue-powered theming system, and a default theme optimized for writing technical documentation. It was created to support the documentation needs of Vue's own sub projects.",
+  "preview": "projects/jujusdiary/preview.png",
+  "art": "projects/jujusdiary/keyart.png",
+  "type": "link",
+  "url": "google.com"
+},
+{
+  "title": "DC Universe",
+  "slug": "dc-unverse",
+  "year": "2015",
+  "skills": [
+    "Creative Direction",
+    "Front-end"
+  ],
+  "description": "VuePress is composed of two parts: a minimalistic static site generator with a Vue-powered theming system, and a default theme optimized for writing technical documentation. It was created to support the documentation needs of Vue's own sub projects.",
+  "preview": "projects/jujusdiary/preview.png",
+  "art": "projects/jujusdiary/keyart.png",
+  "type": "offline"
+}]

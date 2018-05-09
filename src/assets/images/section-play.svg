@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="484px" height="142px" viewBox="0 0 484 142" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>PLAY</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="48.3741204%" cy="-53.0930448%" fx="48.3741204%" fy="-53.0930448%" r="206.876867%" gradientTransform="translate(0.483741,-0.530930),scale(0.293460,1.000000),rotate(87.085200),translate(-0.483741,0.530930)" id="radialGradient-1">
+            <stop stop-color="#7263F4" offset="0%"></stop>
+            <stop stop-color="#7974F9" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-482.000000, -21.000000)" fill="url(#radialGradient-1)">
+            <path d="M514.4,84.8 L532.8,84.8 C544.8,84.8 553,77.8 553,66.8 C553,55.4 544.8,48.6 532.8,48.6 L514.4,48.6 L514.4,84.8 Z M536,112 L514.2,112 L514.2,163 L482.6,163 L482.6,21.2 L536,21.2 C564.8,21.2 584.6,40.2 584.6,66.6 C584.6,93.4 564.8,112 536,112 Z M694,163 L601.2,163 L601.2,21.2 L632.8,21.2 L632.8,132.8 L694,132.8 L694,163 Z M818.8,163 L808.6,134.2 L753.8,134.2 L743.6,163 L710.4,163 L763.8,21.2 L800.4,21.2 L853.2,163 L818.8,163 Z M785.6,56.4 L768.2,105.4 L802.6,105.4 L785.6,56.4 Z M884.4,103.8 L835.2,21.2 L872.2,21.2 L901.2,73.8 L930.6,21.2 L965.8,21.2 L916,103.8 L916,163 L884.4,163 L884.4,103.8 Z" id="PLAY"></path>
+        </g>
+    </g>
+</svg>
