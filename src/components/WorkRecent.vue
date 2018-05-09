@@ -11,7 +11,6 @@ import WorkPreview from './WorkPreview'
 export default {
   data () {
     return {
-      msg: 'Recent Work'
     }
   },
   props: ['project'],

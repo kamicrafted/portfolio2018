@@ -4,7 +4,7 @@
       <p class="blurb">
         &copy; {{ new Date().getFullYear() }}
         Crafted with
-        <img class="icon-heart" src="../../assets/icons/icon-heart.svg" alt="">, built with
+        <img class="icon-heart" src="../../assets/icons/icon-heart.svg" alt="">, powered by
         <a href="https://vuejs.org/"><img class="vue" src="../../assets/logo-vue.svg" alt=""></a>
       </p>
 

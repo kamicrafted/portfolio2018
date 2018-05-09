@@ -2,7 +2,7 @@
   <div>
     <header class="site-header">
       <nav class="nav">
-        <router-link class="nav__item" to="/work" @click.native="emitRoute('work')">Work</router-link>
+        <!-- <router-link class="nav__item" to="/work" @click.native="emitRoute('work')">Work</router-link> -->
         <!-- <router-link class="nav__item" to="/play" @click.native="emitRoute('play')">Play</router-link> -->
         <router-link class="nav__item" to="/contact" @click.native="emitRoute('contact')">Contact</router-link>
       </nav>

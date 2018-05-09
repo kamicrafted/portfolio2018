@@ -35,7 +35,7 @@ export default {
             'Front-end',
             'Management'
           ],
-          description: 'After close to a decade of hopping around agencies, I met Seung and Romanos – both whom I immediately took a liking to – which ended up kickstarting my journey into the world of startups. It would take me a few years to realize just how significantly the experience has shaped who I am today as both designer and manager, while introducing me to the best group of people I\'d come to love and respect dearly.',
+          description: 'After close to a decade of hopping around agencies, I met Seung and Romanos – both whom I immediately took a liking to – which got me exposed to the world of startups. It would take me a few years to realize just how significantly the experience has shaped who I am today as both designer and manager, while introducing me to the best group of people I\'ve come to trust, love and respect.',
           preview: 'projects/dramafever/preview.png',
           art: 'projects/dramafever/keyart.png',
           type: 'case'
@@ -50,7 +50,7 @@ export default {
             'Marketing',
             'Operations'
           ],
-          description: 'I helped start a small yet ambitious independent publishing company in 2011 as a side-project, teaming up with an amazing illustrator and a young designer with the goal of releasing our first book at NYCC \'11. It was tough yet rewarding, and even though we had to eventually shut down, proved to be an invaluable experience to test and learn a broad range of skills from.',
+          description: 'I helped start a small yet ambitious independent publishing company in 2011 as a side-project, teaming up with an amazing illustrator and a promising young designer with the goal of releasing a graphic novel at NYCC \'11. It was tough yet rewarding, and even though we had to eventually shut down, proved to be an invaluable experience to test and learn a broad range of skills.',
           preview: 'projects/jujusdiary/preview.png',
           art: 'projects/jujusdiary/keyart.png',
           type: 'case'
@@ -64,7 +64,7 @@ export default {
             'Graphic Design',
             'Marketing'
           ],
-          description: 'BlackBook was started amongst a small group of friends to organize events that we ourselves would want to attend. In the process, we\'d go on to throw parties all throughout New York City and build partnerships with various productions and venues while having a blast.',
+          description: 'While doing the agency thing, I started BlackBook with a small group of friends to organize events that we\'d want to attend ourselves. In the process, we\'d go on to throw parties all across New York City and build partnerships with various productions and venues – all while having a blast and getting a front seat to NYC\'s one-of-a-kind nightlife.',
           preview: 'projects/jujusdiary/preview.png',
           art: 'projects/jujusdiary/keyart.png',
           type: 'link',
@@ -79,7 +79,7 @@ export default {
             'Interaction Design',
             'Flash/Actionscript'
           ],
-          description: 'After leaving the Klimate nest, I started my circuit through various NYC advertising agencies as it was the natural course for designers during that time. I knew that I eventually wanted to start my own thing but until I knew what that was, it seemed to be a great way to work on recognizeable brands that were looking for unique and exciting projects',
+          description: 'After leaving Klimate I started a circuit of ad-agencies throughout NYC, which seemed to be the natural course for designers at the time. It was always in my heart to start my own thing, but until I had an idea worth going all-in, advertising seemed to be the logical route to work on exciting projects for well-known brands.',
           preview: 'projects/jujusdiary/preview.png',
           art: 'projects/jujusdiary/keyart.png',
           type: 'offline'

@@ -9,7 +9,19 @@
           <h3 class="detail__year">{{ project[0].year }}</h3>
           <h1 class="detail__title">{{ project[0].title }}</h1>
           <div class="detail__skills">
-            <span v-for="(skill, index) in project[0].skills" :key="index">{{ skill }}</span>
+            <span :class="{
+            'cdirection': (skill === 'Creative Direction'),
+            'adirection': (skill === 'Art Direction'),
+            'marketing': (skill === 'Marketing'),
+            'web': (skill === 'Web Design'),
+            'flash': (skill === 'Flash/Actionscript'),
+            'graphic': (skill === 'Graphic Design'),
+            'interaction': (skill === 'Interaction Design'),
+            'dev': (skill === 'Front-end'),
+            'operations': (skill === 'Operations'),
+            'management': (skill === 'Management')
+            }" v-for="(skill, index) in project[0].skills" :key="index">{{ skill }}
+          </span>
           </div>
         </div>
 
@@ -65,7 +77,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @import '../../styles/app';
 
 .block-pullquote {
@@ -141,13 +153,18 @@ export default {
 }
 
 .detail {
-  padding: 0 0 em(50);
+  padding: em(50) 0;
 }
 
 .keyart {
+  background: #820d08 url(../../assets/projects/dramafever/keyart_bg.jpg) top center;
+  background-size: cover;
+  padding-top: em(25);
   position: relative;
   z-index: 0;
+
   img {
+    display: block;
     width: 100%;
   }
 }

@@ -5,7 +5,19 @@
         <h3 class="detail__year">{{ project[index].year }}</h3>
         <h1 class="detail__title">{{ project[index].title }}</h1>
         <div class="detail__skills">
-          <span v-for="(skill, index) in project[index].skills" :key="index">{{ skill }}</span>
+          <span :class="{
+            'cdirection': (skill === 'Creative Direction'),
+            'adirection': (skill === 'Art Direction'),
+            'marketing': (skill === 'Marketing'),
+            'web': (skill === 'Web Design'),
+            'flash': (skill === 'Flash/Actionscript'),
+            'graphic': (skill === 'Graphic Design'),
+            'interaction': (skill === 'Interaction Design'),
+            'dev': (skill === 'Front-end'),
+            'operations': (skill === 'Operations'),
+            'management': (skill === 'Management')
+            }" v-for="(skill, index) in project[index].skills" :key="index">{{ skill }}
+          </span>
         </div>
       </div>
 
@@ -17,7 +29,7 @@
         </router-link> -->
 
         <span class="btn btn--more" v-if="project[index].type === 'case'" @click="updateRoute(project[index].slug)">
-          <img class="icon-send" src="@/assets/icons/icon-stacks.svg" alt=""> View project
+          <img class="icon-send" src="@/assets/icons/icon-stacks.svg" alt=""> View case study
         </span>
 
         <br v-if="project[index].type === 'link'">
@@ -63,7 +75,7 @@ export default {
 .keyart {
   position: relative;
   z-index: 100;
-  margin: em(50) 0 em(150) 0;
+  margin: em(50) 0 em(50) 0;
 
   @media #{$sm} {
     margin-bottom: em(50);

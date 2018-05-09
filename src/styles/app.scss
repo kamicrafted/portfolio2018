@@ -180,7 +180,7 @@ p {
   &__skills {
     font-size: rem(12);
     font-weight: 700;
-    line-height: 1;
+    line-height: 1.4;
     text-transform: uppercase;
 
     span {
@@ -204,6 +204,26 @@ p {
         }
       }
     }
+
+    .cdirection { color: #C8F4FF; }
+    
+    .adirection { color: #C8F4FF; }
+
+    .web { color: #FFC8DD; }
+
+    .graphic { color: #FFC8DD; }
+
+    .interaction { color: #FFC8DD; }
+
+    .flash { color: #FFEAC8; }
+
+    .dev { color: #FFEAC8; }
+
+    .marketing { color: #E5C8FF; }
+
+    .operations { color: #DFFFC8; }
+
+    .management { color: #DFFFC8; }
   }
 
   &--2col {

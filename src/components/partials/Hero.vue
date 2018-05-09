@@ -6,8 +6,9 @@
       <img class="hero__title hero__title--play" src="@/assets/images/section-play.svg" :alt="pagename" v-if="pagename === 'play'">
 
       <nav class="hero__nav" v-if="pagename == 'work'">
-        <router-link to="#" class="hero__nav-item" :class="{'active' :(navCurrent === 'recent')}" @click.native="emitSection('recent')">Recent</router-link>
-        <router-link to="#" class="hero__nav-item" :class="{'active' :(navCurrent === 'archived')}" @click.native="emitSection('archived')">Archived</router-link>
+        <router-link to="#" class="hero__nav-item" :class="{'active' :(navCurrent === 'recent')}" @click.native="emitSection('recent')">Milestones</router-link>
+        <router-link to="#" class="hero__nav-item" :class="{'active' :(navCurrent === 'freelance')}" @click.native="emitSection('freelance')">Freelance</router-link>
+        <router-link to="#" class="hero__nav-item" :class="{'active' :(navCurrent === 'archived')}" @click.native="emitSection('archived')">The Vault</router-link>
       </nav>
     </header>
   </div>
