@@ -1,18 +1,25 @@
 <template>
   <div>
-    <h1>Freelance Work</h1>
+    <div class="container">
+      <work-preview v-for="(p, index) in project" :key="'p' + index" :project="project" :index="index"></work-preview>
+    </div>
   </div>
 </template>
-
 <script>
-export default {
+import WorkPreview from './WorkPreview'
 
+export default {
+  data () {
+    return {
+    }
+  },
+  props: ['project'],
+  components: {
+    WorkPreview
+  }
 }
 </script>
 
 <style scoped>
-  h1 {
-    text-align: center;
-    font-size: 40px;
-  }
+
 </style>

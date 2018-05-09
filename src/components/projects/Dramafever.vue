@@ -28,29 +28,17 @@
         <p class="detail__description">{{ project[0].description }}</p>
       </div>
 
-      <div class="block-img block-img--right">
-        <img class="block-img__screen" src="@/assets/projects/jujusdiary/juju1.jpg" alt="">
-        <div class="block-img__info">
-          <h2 class="block-img__title">Website</h2>
-          <p class="block-img__description">
-            1. Getting our name out there on Reddit, through weekly drawing sessions; later expanding to work with other guest artists<br>
-          </p>
-        </div>
-      </div>
+      <p>
+        One of the first projects I started on was to modernize the DramaFever branding. After several rounds and countless bad ideas, the team landed on an updated version of the original logo.
+      </p>
 
-      <div class="block-img">
-        <img class="block-img__screen" src="@/assets/projects/jujusdiary/juju1.jpg" alt="">
-        <div class="block-img__info">
-          <h2 class="block-img__title">Website</h2>
-          <p class="block-img__description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione facilis quaerat nobis aliquid magni perferendis necessitatibus temporibus eos odio. Dolor adipisci deleniti eos magni officia ipsum sit nobis soluta sapiente.
-          </p>
-        </div>
-      </div>
+      <p>
+        In 2013, the company ambitiously took on an evolutionary step for the website, introducing several new features, interactions and a facelift to bring the old site into the modern age.
+      </p>
 
-      <h3 class="block-pullquote">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      </h3>
+      <p>
+        AMC, one of our investors at the time, brought us on to help them build out their direct-to-consumer aspirations through the launch of Shudder and Doc Club. At this point in time, we began to think about a platform play – transitioning from a single channel into a turn-key solution where content owners can bring the content and we build a business around it.
+      </p>
     </div>
   </div>
 </template>
