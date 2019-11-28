@@ -35,10 +35,6 @@
       <p>
         In 2013, the company ambitiously took on an evolutionary step for the website, introducing several new features, interactions and a facelift to bring the old site into the modern age.
       </p>
-
-      <p>
-        AMC, one of our investors at the time, brought us on to help them build out their direct-to-consumer aspirations through the launch of Shudder and Doc Club. At this point in time, we began to think about a platform play – transitioning from a single channel into a turn-key solution where content owners can bring the content and we build a business around it.
-      </p>
     </div>
   </div>
 </template>
